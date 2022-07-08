@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block tittle %}
+contact us
+{% endblock tittle %}
+
+{% block body %}
+<div class="container-fluid px-0 mb-3">
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="margin-top: 57px;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://source.unsplash.com/1200x400/?nature,water" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1200x400/?nature,water" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1200x400/?nature,water" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="container">
+<h1 class="text-center" style="font-family: cursive; font-weight: bold; color:blue;">Contact us</h1>
+
+<form method= "post" action="/contact" >
+{% csrf_token %}
+  <div class="form-group" style="margin-bottom:4px;">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+  </div>
+  <div class="form-group" style="margin-bottom:4px;">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" name="name" placeholder="enter your name">
+  </div>
+   <div class="form-group" style="margin-bottom:4px;">
+    <label for="phone">phone</label>
+    <input type="phone" class="form-control" id="phone" name="phone" placeholder="enter your name">
+  </div>
+  
+  
+  
+ 
+  <div class="form-group" style="margin-bottom:4px;">
+  <label for="decs">Address..</label>
+    <textarea  multiple class="form-control" id="desc" rows="3" name="desc"></textarea>
+  </div>
+  <button  class="btn btn-primary" type="submit" style="margin-bottom:4px;">Submit</button>
+</form>
+</div>
+
+{% endblock body %}
