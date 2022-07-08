@@ -1,0 +1,307 @@
+{% extends 'base.html' %}
+
+{% block style%}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'style/style.css'%}">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+<link rel="static//style/style" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+<link rel="static/style" href="style.css">
+<link rel="static/style/style.css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+{% endblock style %}
+{% block tittle %}
+home
+{% endblock tittle %}
+
+{% block body %}
+<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+<main>
+<div class="container-fluid px-0">
+ 
+  <div id="carouselExampleCaptions" class="carousel slide  mb-4" data-bs-ride="carousel" style="margin-top: 57px;">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1200x400/?farm, milk" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block fs-5">
+       
+        <p>"SPIT ALL OVER SOMEONE WITH A MOUTHFUL OF MILK IF YOU WANT TO FIND OUT SOMETHING ABOUT THEIR PERSONALITY FAST."</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1200x400/?milk" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block fs-5">
+       
+        <p>"I feel better all day if I start off by eating healthy. Breakfast is simple: multigrain toast with natural peanut butter, oatmeal, yogurt, fruit, or healthy cereal."</p>
+      </div>
+    </div>
+     <div class="carousel-item active">
+      <img src="https://source.unsplash.com/1200x400/?cow farm" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block fs-5">
+       
+        <p>"Keep your vitality. A life without health is like a river without water."</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1200x400/?milk " class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block fs-5">
+        
+        <p>"My grandfather used to say that once in your life you need a doctor, a lawyer, a policeman, and a preacher. But every day, three times a day, you need a farmer."</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+
+
+<main >
+<div class="container ">
+  <section class=" text-center container">
+    <div class="row ">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-dark " style="font-family: cursive; font-weight: bold; color:blue">Welcome To DUDH</h1>
+        <p class="lead text-muted fs-22px"><strong>DUDH(Desi Urban Dairy Hub)</strong> was establish in the year 2012.A member owned and operate business with an objective to deliver pure desi milk and also fedral body of 20 Rural dairy co-operative societies spread all over the city of Aligarh having 500 farmer families as their member procuring presently on an average about 5000 litres of milk per day.<br><br>
+              A co-operative institution mainly focus on fulfilling the customer.Institution suppliying 5000 litre of milk per day to the urban/semi urban consumer  esepacilly  hostel's,Colonies,Wedding Ceremony e.t.c 
+              and Booths and full time Distribution Agencies.</p>
+        
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container ">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="static/image/challenge5.jpg" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text">
+              <b>Challenges Faced By The Indian Dairy Sector </b><br>India has a unique pattern of production, processing and marketing/consumption of milk, incomparable to any large milk producing country.
+                India is the world’s largest milk producer and consumer of dairy products, consuming almost 100% of its own milk production. The Indian dairy sector is different from other dairy producing countries as emphasis is placed on both cattle and buffalo milk. In order to achieve greater profitability, quality standards need to be improved. Following are some of the practical dairy farming challenges in India.<br>
+                <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="/about" type="button" class="btn btn-sm btn-outline-secondary">View</a>
+                  <a href="/about" type="button" class="btn btn-sm btn-outline-secondary">Edit</a>
+                   
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+           
+        
+        
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src="static/image/farmer2.jpg" class="d-block w-100" alt="...">
+            
+            <div class="card-body">
+              <p class="card-text"><b> MEET OUR FARMERS</b><br>Farming is a labour of love – a love of land, cows, family and feeding the world. The I’m a Malik Dairy Farmer documentary series profiles the diverse, dimensional  who relish in early morning milking and working shoulder to shoulder with family while taking the time to pursue passions in tech, photography, running and even flying!
+                  As jacks of all trades and masters of many, this series showcases the pride Malik dairy farmers have in the work they do and the common values they share with the people who consume their dairy products.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                 <a href="/about" type="button" class="btn btn-sm btn-outline-secondary">View</a>
+                  <a href="/about" type="button" class="btn btn-sm btn-outline-secondary">Edit</a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+            
+        
+        <div class="col">
+          <div class="card shadow-sm">
+             <img src="static/image/health1.jpg" class="d-block w-100" alt="...">
+            <div class="card-body">
+              <p class="card-text"> <b> WORKING OUR HEALTH</b><br>A glass of milk is often considered as a whole meal, due to the fact that it contains nine essential nutrients. We’re sure your mother and grandmothers narrated lists of the health benefits glass milk possesses while forcing you to empty yours. And we’re here to tell you that the wise women of your life were right. It’s time to consider cutting back on those cups of coffee and maybe replacing them with just plain ole milk.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="/about" type="button" class="btn btn-sm btn-outline-secondary">View</a>
+                  <a href="/about" type="button" class="btn btn-sm btn-outline-secondary">Edit</a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette bg-dark text-white ">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">WHY CHOOSE US? <span class="text-muted">It’ll blow your mind.</span></h2>
+        <p class="lead  "> 
+            
+            <h2><img src="static/Image/value.png"   height="66px" width="66px" >Value of customer</h2>
+            
+            <p >Value of customer and value of their money.<br>Pure fresh milk, free from any acidification or adulternant</p>
+                 
+              <h2><img src="static/Image/milk1.png"    height="66px" width="66px">Quality Packaging</h2>
+              
+              <p>Healthy way to use packaging and packaging materials.</p>
+             
+              <h2><img src="static/Image/covid1.png"    height="77px" width="180px">...Safety Measures</h2>
+                
+                <p>We follow all the safety measure,Because your safety is our priority.</p>
+                     
+                   
+                <h2><img src="static/Image/cow.png"    height="66px" width="66px">Healthy Animals</h2>
+                
+                <p>Modern cattle feed plant be used for animals.</p>
+                     
+                  <h2><img src="static/Image/farmer1.png"    height="66px" width="66px"> farmers</h2>
+                  
+                  <p>They provide good quality of fooder to the cows and buffaloes.Because our motive to be a fit and healthy India...</p>
+                    
+                    <h2><img src="static/Image/laboratory.png"    height="66px" width="66px">We also check purity</h2>
+                    
+                    <p>Our institution taking milk from farmer and check or consultant to thier purity. After than supply it.</p>
+            
+            
+          
+          
+       
+    
+      </div>
+      <div class="col-md-5">
+        <img src="static/image/choose.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette bg-dark text-white ">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Our Story <span class="text-muted">See it.</span></h2>
+        <p class="lead "> Arwaj ali ushered in ‘White Revolution’ in India with ‘Operation milk dairy’, the largest project for dairy development in the world. As a direct result, India became self sufficient and global leader in milk production and dairy farmers the architects in their own development. 
+
+This revolution led to an increase in milk production many fold which led to the co-operatives declaring milk holidays around UP. This adversity was circumvented by Mr.Shubham Sagar (our Founder & Chairman) by helping farmers by collecting their milk on such milk holidays. And thus was born malik Milk Foods Ltd. 
+
+Malik Milk Foods Ltd, founded in 2002, is one of India's elite private sector dairy company, with a diverse portfolio in over 15 consumer centric product categories. We pride ourselves for providing the best global source of expertise and scientific knowledge in support of the development and promotion of quality cow’s milk and milk products, to offer consumers nutrition, health and well-being. 
+
+We aim to identify, elaborate and disseminate best practices at all our infrastructures, a dairy farms set on global standards, a modern fully automated cheese plant with state of the art technology, a ghee plant with traditional way of making ghee like made at home and an UHT milk processing plant using the best equipment from one of the leading plant equipment manufacture. 
+
+We manufacture products of truly international quality under internationally famous brand names. Our Its product portfolio includes ghee,fresh milk, skim milk powder, whole milk powder, paneer, an array of processed and natural cheese, cheese spreads, butter, dahi, dairy whitener and all made from 100% fresh cow milk. Pride of Cows is a brand of fresh farm- to -home milk and Topp Up, a flavoured milk in many a variants.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+       <img src="static/image/story.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+   <!--Google map-->
+<div id="map-container-google-4" class="z-depth-1-half map-container bg-dark">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7050.560495866419!2d78.07478802519249!3d27.92405263081041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974a51c9137385d%3A0x312ef667fc7366c5!2sJamalpur%2C%20Aligarh%2C%20Uttar%20Pradesh%20202001!5e0!3m2!1sen!2sin!4v1623931381662!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+<!--Google Maps-->
+
+
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  <!-- /.container -->
+
+
+ 
+    
+{% endblock body %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
